@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500&family=Noto+Sans+KR&display=swap");
+
+body,
+span,
+p {
+  font-family: "IBM Plex Sans KR", sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
